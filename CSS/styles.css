@@ -93,6 +93,21 @@ h3{
     border-bottom: aqua solid 3px;
 }
 
+.login{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 55px;
+}
+
+.enlaces{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 footer{
     display: flex;
     flex-wrap: wrap;
