@@ -100,3 +100,7 @@ footer{
     justify-content: space-around;
     border: 3px solid black;
 }
+
+.detalle{
+    background-color: cornsilk;
+}
