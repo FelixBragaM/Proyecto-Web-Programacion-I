@@ -1,0 +1,102 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: gold;
+}
+
+main{
+    margin: 20px;
+}
+
+.logo{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    background-color: black;
+}
+
+.tm{
+    height: 20vh;
+    width: 215px;
+}
+
+.header{
+    margin-top: 10px;
+}
+
+nav{
+    background-color: black;
+    padding: 10px;
+    height: 10vh;
+}
+
+.ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+.li{
+    text-decoration: none;
+    color: aqua;
+}
+
+li{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+section{
+    color: whitesmoke;
+    padding: 25px;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.titulo{
+    margin-bottom: 25px;
+    border-bottom: black solid 3px;
+}
+
+.info{
+    width: 190px;
+    padding-top: 30px;
+    margin: 0px 10px 0px 10px;
+}
+
+.foto{
+    height: 220px;
+    width: 140px;
+}
+
+.a{
+    text-decoration: none;
+    background-color: wheat;
+    color: black;
+}
+
+h2{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ margin-top: 60px;
+}
+
+h3{
+    border-bottom: aqua solid 3px;
+}
+
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    border: 3px solid black;
+}
