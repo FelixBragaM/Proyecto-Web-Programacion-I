@@ -108,6 +108,10 @@ h3{
     justify-content: center;
 }
 
+.input{
+    margin: 10px;
+}
+
 footer{
     display: flex;
     flex-wrap: wrap;
