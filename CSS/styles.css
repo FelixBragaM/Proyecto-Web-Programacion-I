@@ -104,7 +104,7 @@ h3{
 .enlaces{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    align-items: center;
 }
 
 .input{
