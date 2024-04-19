@@ -123,3 +123,53 @@ footer{
 .detalle{
     background-color: cornsilk;
 }
+
+@media (max-width: 420px){
+    main{
+        border: black solid 2px;
+        padding: 5px;
+    }
+
+    header{
+        margin: 10px;
+    }
+
+    .tm{
+        height: 20vh;
+        width: 115px;
+    }
+
+    nav{
+        background-color: black;
+        padding: 10px;
+        height: 30vh;
+    }
+
+    
+    .ul{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .li{
+        list-style: none;
+        flex-wrap: wrap;
+        height: 3vh;
+    }
+
+    .info{
+        width: 190px;
+        padding-top: 30px;
+        margin: 0px 10px 0px 10px;
+    }
+
+    footer{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+    
