@@ -93,6 +93,18 @@ h3{
     border-bottom: aqua solid 3px;
 }
 
+.cate{
+    background-color: blue;
+}
+
+.ftr{
+    color: white;
+}
+
+.red{
+    color: red;
+}
+
 .login{
     display: flex;
     flex-wrap: wrap;
