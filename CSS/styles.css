@@ -142,6 +142,26 @@ h3{
     color: red;
 }
 
+.recuperar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.recu{
+    background-color: grey;
+}
+
+.ing{
+    color: black;
+}
+
+.aqua{
+    color: blue;
+}
+
 footer{
     display: flex;
     flex-wrap: wrap;
