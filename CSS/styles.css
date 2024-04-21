@@ -133,6 +133,10 @@ h3{
 
 }
 
+.border{
+    border-bottom: blue solid 1px;
+}
+
 footer{
     display: flex;
     flex-wrap: wrap;
