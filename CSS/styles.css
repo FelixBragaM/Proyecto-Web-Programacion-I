@@ -118,6 +118,21 @@ h3{
     margin: 10px;
 }
 
+.car{
+    background-color: green;
+}
+
+.carro{
+    border: red solid 3px;
+}
+
+.comprar{
+    display: flex;
+    flex-direction: row;
+   align-self: center;
+
+}
+
 footer{
     display: flex;
     flex-wrap: wrap;
