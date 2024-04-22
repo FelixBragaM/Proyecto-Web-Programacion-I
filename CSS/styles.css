@@ -353,6 +353,31 @@ footer{
      border-bottom: yellow dotted 3px;
    }
 
+   .dat{
+    background-color: grey;
+   }
+
+   .cuenta{
+    border: black solid 2px;
+   }
+
+   .tengo{
+    color: aqua;
+   }
+
+   .input{
+    margin: 15px;
+    padding: 3px;
+   }
+
+   .registrarse{
+    background-color: blue;
+   }
+
+   .re{
+    border-bottom: yellow dotted 3px;
+   }
+
 
 
     footer{
@@ -361,23 +386,7 @@ footer{
         flex-direction: column;
         align-items: center;
     }
-
-    .detalle{
-        background-color: brown;
-    }
-
-    .login{
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
-        align-items: center;
-        margin-top: 5vh;
-    }
-
-    .recu{
-        background-color: cadetblue;
-    }
-
+       
 }
 
     
