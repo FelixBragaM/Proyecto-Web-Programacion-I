@@ -403,6 +403,15 @@ footer{
     color: red;
 }
 
+.login{
+    margin-top: 5vh;
+    padding: 10px;
+   }
+
+   .lib{
+    border: gold double 5px;
+   }
+
 
    footer{
     display: flex;
