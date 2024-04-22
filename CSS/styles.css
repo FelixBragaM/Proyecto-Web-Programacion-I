@@ -309,6 +309,22 @@ footer{
         margin: 5px 5px;
     }
 
+    .recu{
+        background-color: cadetblue;
+    }
+    
+    .recuperar{
+        padding: 10px;
+    }
+
+   .ing{
+    color: yellow;
+   }
+
+   .aqua{
+    color:black;
+}
+
     footer{
         display: flex;
         flex-wrap: wrap;
