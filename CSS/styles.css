@@ -323,7 +323,12 @@ footer{
 
    .aqua{
     color:black;
-}
+   }
+
+   .input{
+    margin: 15px;
+    padding: 3px;
+   }
 
     footer{
         display: flex;
