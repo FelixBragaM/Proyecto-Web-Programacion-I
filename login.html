@@ -6,7 +6,7 @@
     <title>Login</title>
     <link rel="stylesheet" href="./CSS/styles.css">
 </head>
-<body>
+<body class="log">
     <header class="header">
         <div class="logo"><img class="tm" src="./img/logo.jpg" alt="logo"></div>
         <nav>
@@ -17,22 +17,22 @@
                 <li><a href="./category.html" class="li">Hombre</a></li>
                 <li><a href="./category.html" class="li">Mujer</a></li>
                 <li><a href="./carrito.html" class="li">Carrito</a></li>
-                <li><a href="login.html" class="li">Login</a></li>
+                <li><a href="./login.html" class="li">Login</a></li>
                 <li><a href="./registro.html" class="li">Registro</a></li>
             </ul>
         </nav>
     </header>
     <form action="index.html" method="get">
         <div class="login">
-            <h2>Ingrese los siguientes datos</h2>
-            <label for="email">Email:</label>
+            <h2 class="lib">Ingrese los siguientes datos</h2>
+            <label class="lab" for="email">Email:</label>
             <input id="email" class="input" type="email" name="mail" value="">
-            <label for="pasword">Contraseña:</label>
+            <label class="lab" for="pasword">Contraseña:</label>
             <input id="pasword" class="input" type="password" name="password" value="">
             <button class="button" type="submit">Ingresar</button>
             <ul class="enlaces">
-                <li><a href="./registro.html">No tengo cuenta</a></li>
-                <li><a href="./recover.html">Recuperar constraseña</a></li>
+                <li><a class="go" href="./registro.html">No tengo cuenta</a></li>
+                <li><a class="go" href="./recover.html">Recuperar constraseña</a></li>
             </ul>
         </div>
     </form>
