@@ -384,6 +384,25 @@ footer{
     border-bottom: yellow dotted 3px;
    }
 
+   .detalle{
+    background-color: brown;
+}
+
+.product{
+    background-color: orange;
+    margin: 5px;
+    padding: 5px;
+}
+
+.pro{
+    color: black;
+}
+
+.prod{
+    border: black dotted 3px;
+    color: red;
+}
+
 
    footer{
     display: flex;
