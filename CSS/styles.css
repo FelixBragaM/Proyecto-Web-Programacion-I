@@ -199,6 +199,24 @@ h3{
     margin: 10px;
 }
 
+.log{
+    background-color: black;
+    color: whitesmoke;
+}
+
+.lib{
+    border: gold solid 2px;
+    color: goldenrod
+}
+
+.lab{
+    color: goldenrod;
+}
+
+.go{
+    color: gold;
+}
+
 footer{
     display: flex;
     flex-wrap: wrap;
