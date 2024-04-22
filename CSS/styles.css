@@ -225,9 +225,6 @@ footer{
     border: 3px solid black;
 }
 
-.detalle{
-    background-color: cornsilk;
-}
 
 @media (max-width: 420px){
     main{
