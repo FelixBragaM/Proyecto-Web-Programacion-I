@@ -254,6 +254,12 @@ footer{
         margin: 10px;
     }
 
+    section{
+        flex-direction: column;
+        align-items: center;
+    
+    }
+
     .tm{
         height: 20vh;
         width: 115px;
