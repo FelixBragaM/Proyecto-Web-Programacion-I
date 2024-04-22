@@ -246,7 +246,7 @@ footer{
 
 @media (max-width: 420px){
     main{
-        border: black solid 2px;
+        border: black solid 3px;
         padding: 5px;
     }
 
@@ -379,14 +379,14 @@ footer{
    }
 
 
+   footer{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    background-color: blue;
+}
 
-    footer{
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
-        align-items: center;
-    }
-       
 }
 
     
