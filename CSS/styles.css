@@ -330,6 +330,31 @@ footer{
     padding: 3px;
    }
 
+   .ca{
+    margin: 5px;
+    padding: 8px;
+   }
+
+   .cate{
+    background-color: green;
+   }
+
+   .ftr{
+    background-color: black;
+    color: red;
+    margin: 9px;
+   }
+
+   .red{
+    color: blue;
+   }
+
+   h3{
+     border-bottom: yellow dotted 3px;
+   }
+
+
+
     footer{
         display: flex;
         flex-wrap: wrap;
