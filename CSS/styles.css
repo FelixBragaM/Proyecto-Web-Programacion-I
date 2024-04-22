@@ -217,6 +217,24 @@ h3{
     color: gold;
 }
 
+.detalle{
+    background-color: cornsilk;
+
+}
+
+.product{
+    background-color: gray;
+}
+
+.pro{
+    color: black;
+}
+
+.prod{
+    border: black solid 3px;
+    color: black;
+}
+
 footer{
     display: flex;
     flex-wrap: wrap;
