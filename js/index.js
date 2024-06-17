@@ -44,7 +44,7 @@ fetch("https://fakestoreapi.com/products/category/men's clothing")
 })
 
 .catch(function(error){
-    console.log("Error" + error);
+    console.log("Error" + error);
 })
 
 
