@@ -2,7 +2,7 @@ let cat = document.querySelector(".ca");
 let queryString = location.search;
 let queryStringObject = new URLSearchParams(queryString);
 let categoria = queryStringObject.get("categoria");
-let url = "https://fakestoreapi.com/products/category/${categoria}";
+let url = `https://fakestoreapi.com/products/category/${categoria}`;
 
 fetch(url)
 .then(function(response){
@@ -24,5 +24,5 @@ fetch(url)
 })
 
 .catch(function(error){
-    console.log("Error" + error);
+    console.log("Error" + error);
 })
