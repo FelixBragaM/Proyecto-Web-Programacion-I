@@ -12,6 +12,6 @@ logout.addEventListener("click", function(e){
     login.style.display = "block";
 
     logout.style.display = "none";
-    registro.style.display = "block";
+    registro.style.display = "block";
 
 })

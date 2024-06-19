@@ -15,5 +15,5 @@ form.addEventListener("submit", function(e){
         user = email.value   
         localStorage.setItem("username", user) 
         this.submit();
-    }
+    }
 })
