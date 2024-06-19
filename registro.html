@@ -23,18 +23,24 @@
     </header>
     <form action="login.html" method="get">
         <div class="registrarse">
-            <h2 class="re">Complete el siguiente formulario</h2>
+            <h2 class="re">Complete el siguiente formulario</h2>  
             <label for="email">Email:</label>
             <input id="email" class="input" type="email" name="mail" value="">
+            <div class="emailError"></div>
             <label for="pasword">Contraseña:</label>
-            <input id="pasword" class="input" type="password" name="password" value="">
-            <label for="password">Repetir contraseña: </label>
-            <input id="pasword" class="input" type="password" name="password" value="">
+            <input id="password" class="input" type="password" name="password" value="">
+            <div class="passwordError"></div>
+            <label for="rePassword">Repetir contraseña: </label>
+            <input id="rePassword" class="input" type="password" name="password" value="">
+            <div class="rePasswordError"></div>
             <label class="input" for="text">Terminos y Condiciones</label>
-            <input id="text" for="checkbox" name="Terminos y Condiciones">
+            <input id="text" type="checkbox" name="Terminos y Condiciones">
             <button class="input" type="submit">Registrarme</button>
             <p class="cuenta"><a class="tengo" href="./login.html">Ya tengo cuenta</a></p>
         </div>
     </form> 
+    <script></script>
+    <script src="./js/saludo.js"></script>
+    <script src="./js/logout.js"></script>
 </body>
 </html>
