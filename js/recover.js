@@ -19,6 +19,6 @@ form.addEventListener("submit", function(e){
         procesoFinalizado.innerText = "Recibiras un email con las instrucciones para recuperar tu contraseña";
         procesoFinalizado.style.display = "block";
         procesoFinalizado.style.color = "red";
-        procesoFinalizado.innerHTML += <a href="./login.html" class="final">Ir a login</a>
+        procesoFinalizado.innerHTML += `<a href="./login.html" class="final">Ir a login</a>` 
     }
 })
