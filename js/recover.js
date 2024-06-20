@@ -20,5 +20,5 @@ form.addEventListener("submit", function(e){
         procesoFinalizado.style.display = "block";
         procesoFinalizado.style.color = "red";
         procesoFinalizado.innerHTML += <a href="./login.html" class="final">Ir a login</a>
-        }  
+    }
 })
