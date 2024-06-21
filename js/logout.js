@@ -6,7 +6,7 @@ let registro = document.querySelector(".regi");
 logout.addEventListener("click", function(e){
     e.preventDefault();                             
 
-    localStorage.clear();
+    localStorage.removeItem("username");
 
     mensaje.style.display = "none";
     login.style.display = "block";
